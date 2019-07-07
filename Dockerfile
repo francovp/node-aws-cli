@@ -2,7 +2,7 @@ FROM node:current
 
 RUN apt-get update && apt-get install -y \
     python3-setuptools \
-    python-dev \
+    python3-dev \
     zip \
     jq
 RUN easy_install3 pip
