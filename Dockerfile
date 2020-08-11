@@ -1,4 +1,4 @@
-FROM node:current
+FROM node:lts
 
 ENV LANG C.UTF-8
 
